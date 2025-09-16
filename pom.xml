@@ -3,7 +3,7 @@
   <modelVersion>4.0.0</modelVersion>
 
   <groupId>jp.reflexworks</groupId>
-  <artifactId>vtecx-bdb-entry</artifactId>
+  <artifactId>vtecxj-bdb-entry</artifactId>
   <version>9.0.0</version>
   <packaging>jar</packaging>
 
@@ -18,7 +18,7 @@
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     <basedir>.</basedir>
-    <vtecx-bdb-common-version>9.0.0</vtecx-bdb-common-version>
+    <vtecxj-bdb-common-version>9.0.0</vtecxj-bdb-common-version>
     <maven.compiler.source>17</maven.compiler.source>
     <maven.compiler.target>17</maven.compiler.target>
   </properties>
@@ -26,8 +26,8 @@
   <dependencies>
     <dependency>
       <groupId>jp.reflexworks</groupId>
-      <artifactId>vtecx-bdb-common</artifactId>
-      <version>${vtecx-bdb-common-version}</version>
+      <artifactId>vtecxj-bdb-common</artifactId>
+      <version>${vtecxj-bdb-common-version}</version>
     </dependency>
   </dependencies>
 
